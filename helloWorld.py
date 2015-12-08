@@ -1,3 +1,8 @@
-from numpy import *
+from numpy import*
 
-random.rand(4,4)
+rMat = mat(random.rand(4, 4))
+print (rMat)
+
+iRMat = rMat.I
+
+print (iRMat)
